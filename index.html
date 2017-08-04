@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Push Notification Test</title>
-    <script src="httpChild-without-tracker.min.js" async></script>
-    <!-- <script type="text/javascript">
-      (function(p,u,s,h){
-          p._pcq=p._pcq||[];
-          p._pcq.push(['_currentTime',Date.now()]);
-          s=u.createElement('script');
-          s.type='text/javascript';
-          s.async=true;
-          s.src='https://cdn.pushcrew.com/js/6915f9e22a464ca5720de8810505603b.js';
-          h=u.getElementsByTagName('script')[0];
-          h.parentNode.insertBefore(s,h);
-      })(window,document);
-    </script> -->
+    <!-- <script src="httpChild-without-tracker.min.js" async></script> -->
+    <script type="text/javascript">
+    (function(p,u,s,h){
+        p._pcq=p._pcq||[];
+        p._pcq.push(['_currentTime',Date.now()]);
+        s=u.createElement('script');
+        s.type='text/javascript';
+        s.async=true;
+        s.src='https://cdn.pushcrewstaging.com/js/73105303fab8afa8fafc7e18917c61e7.js';
+        h=u.getElementsByTagName('script')[0];
+        h.parentNode.insertBefore(s,h);
+    })(window,document);
+</script>
   </head>
   <body>
     A test page for push notifications.
