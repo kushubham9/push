@@ -1,6 +1,6 @@
 {
-    "name": "wingify",
-    "short_name": "wingify",
+    "name": "git kushubham9",
+    "short_name": "git kushubham9",
     "icons": [{
         "src": "/logo_192_by_192.png",
         "sizes": "192x192",
@@ -8,6 +8,6 @@
     }],
     "start_url": "/",
     "display": "standalone",
-    "gcm_sender_id": "597858669315",
+    "gcm_sender_id": "81201957378",
     "gcm_user_visible_only": true
 }
