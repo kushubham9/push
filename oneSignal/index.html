@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+    <script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(["init", {
+        appId: "5921bc6b-7f2f-4fd9-bc3d-273b2a0845d2",
+        autoRegister: false, /* Set to true to automatically prompt visitors */
+        httpPermissionRequest: {
+          enable: true
+        },
+        notifyButton: {
+            enable: true /* Set to false to hide */
+        }
+      }]);
+    </script>
+  </head>
+  <body>
+    OneSignal Test Page
+  </body>
+</html>
